@@ -50,3 +50,15 @@ img {
   font-weight: 400;
   margin-top: 5px;
 }
+
+@media (max-width: 970px) {
+  .container {
+    max-width: 30%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 40%;
+  }
+}
